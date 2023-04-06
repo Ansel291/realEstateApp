@@ -15,8 +15,8 @@ import { ImSpinner2 } from 'react-icons/im'
 const HouseList = () => {
   const { houses, loading } = useContext(HouseContext)
 
-  console.log(houses.length)
-  console.log(loading)
+  //console.log(houses.length)
+  //console.log(loading)
 
   // if loading is true
   if (loading) {

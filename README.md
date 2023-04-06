@@ -1,3 +1,3 @@
 # Real Estate App
 
-## https://house-marketplace-ja.vercel.app/
+## https://real-estate-app-ja.netlify.app/
