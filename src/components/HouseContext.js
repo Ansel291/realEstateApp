@@ -62,6 +62,7 @@ const HouseContextProvider = ({ children }) => {
     const maxPrice = parseInt(price.split(' ')[2])
     //console.log(maxPrice)
 
+    // eslint-disable-next-line
     const newHouses = housesData.filter((house) => {
       const housePrice = parseInt(house.price)
 
@@ -124,7 +125,7 @@ const HouseContextProvider = ({ children }) => {
       }
     })
 
-    console.log(newHouses.length)
+    //console.log(newHouses.length)
 
     setTimeout(() => {
       return (
